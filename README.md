@@ -1,5 +1,5 @@
 # YSYX_C_code
-#### 开端
+#### 开端编写"Hello World"
 `#include <stdio.h>
 int main(void)
 {
