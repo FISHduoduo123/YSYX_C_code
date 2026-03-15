@@ -1,5 +1,5 @@
 # YSYX_C_code
-这将作为我学习c语言的笔记及作业仓库。
+各位所看到的是我记录学习c语言历程及作业仓库。
 ##### "Hello World"
 话不多说就让Hello World作为c语言学习的开端吧！！！
 ```
@@ -9,6 +9,12 @@
 		printf("Hello, world.\n");
 		return 0;
  	}
+```
+#### 目录
+```
+	my_c_learning/
+		|---- notes
+		|---- codes
 ```
 
 
