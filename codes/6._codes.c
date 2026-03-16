@@ -123,4 +123,71 @@ int main()
     这两种循环面对continue不同处理逻辑会导致无法等价。
 */
 
+/*
+上面打印的小九九有一半数据是重复的，因为8*9和9*8的结果一样。请修改程序打印这样的小九九：
+1	
+2	4	
+3	6	9	
+4	8	12	16	
+5	10	15	20	25	
+6	12	18	24	30	36	
+7	14	21	28	35	42	49	
+8	16	24	32	40	48	56	64	
+9	18	27	36	45	54	63	72	81
+*/
+#include <stdio.h>
+int main() 
+{
+    // 打印1~100所有素数
+    for(int i=1;i<=9;i++) 
+    {
+        for(int j=1;j<=i;j++) printf("%d\t",(i*j));
+        printf("\n");
+    }
+    return 0;
+}
+/*编写函数diamond打印一个菱形。如果调用diamond(3, '*')则打印：
+	*
+*	*	*
+	*
+*/
+#include <stdio.h>
+void iamond(int num_char,char a)
+{
+    if ((num_char+1)%2) printf("请输入奇数");
+    int cnt_tab = num_char/2; // 求初始空缺数
+    //字符数递增
+    for(int i=1;i<=num_char;i+=2) 
+    {
+        for (int tab=1;tab<=cnt_tab;tab++) printf("\t");
+        cnt_tab --; // 更新空缺数
+        for (int cnt_char=1;cnt_char<=i;cnt_char++) printf("%c\t",a);
+        printf("\n");
+    }
+    cnt_tab = 1;
+    //字符数递减
+    for(int i=num_char-2;i>=1;i-=2) 
+    {
+        for (int tab=1;tab<=cnt_tab;tab++) printf("\t");
+        cnt_tab ++; // 更新空缺数
+        for (int cnt_char=1;cnt_char<=i;cnt_char++) printf("%c\t",a);
+        printf("\n");
+    }
+    
+}
+int main() 
+{
+    iamond(5,'a');
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
 
