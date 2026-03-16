@@ -31,33 +31,33 @@
   3. [程序的调试](https://akaedu.github.io/book/ch01s03.html)
   4. [第一个程序](https://akaedu.github.io/book/intro.helloworld.html)
 #### 2.常量、变量和表达式
-  1. 继续Hello World
-  2. 常量
-  3. 变量
-  4. 赋值
-  5. 表达式
-  6. 字符类型与字符编码
+  1. [继续Hello World](https://akaedu.github.io/book/ch02s01.html)
+  2. [常量](https://akaedu.github.io/book/ch02s02.html)
+  3. [变量](https://akaedu.github.io/book/expr.variable.html)
+  4. [赋值](https://akaedu.github.io/book/ch02s04.html)
+  5. [表达式](https://akaedu.github.io/book/expr.expression.html)
+  6. [字符类型与字符编码](https://akaedu.github.io/book/ch03s04.html)
 #### 3. 简单函数
-  1. 数学函数
-  2. 自定义函数
-  3. 形参和实参
-  4. 全局变量、局部变量和作用域
+  1. [数学函数](https://akaedu.github.io/book/ch03s01.html)
+  2. [自定义函数](https://akaedu.github.io/book/ch03s02.html)
+  3. [形参和实参](https://akaedu.github.io/book/ch03s03.html)
+  4. [全局变量、局部变量和作用域](https://akaedu.github.io/book/ch03s04.html)
 #### 4. 分支语句
-  1. if语句
-  2. if/else语句
-  3. 布尔代数
-  4. switch语句
+  1. [if语句](https://akaedu.github.io/book/ch04s01.html)
+  2. [if/else语句](https://akaedu.github.io/book/ch04s02.html)
+  3. [布尔代数](https://akaedu.github.io/book/ch04s03.html)
+  4. [switch语句](https://akaedu.github.io/book/ch04s04.html)
 #### 5. 深入理解函数
-  1. return语句
-  2. 增量式开发
-  3. 递归
+  1. [return语句](https://akaedu.github.io/book/ch05s01.html)
+  2. [增量式开发](https://akaedu.github.io/book/ch05s02.html)
+  3. [递归](https://akaedu.github.io/book/ch05s03.html)
 #### 6. 循环语句
-  1. while语句
-  2. do/while语句
-  3. for语句
-  4. break和continue语句
-  5. 嵌套循环
-  6. goto语句和标号
+  1. [while语句](https://akaedu.github.io/book/ch06s01.html)
+  2. [do/while语句](https://akaedu.github.io/book/ch06s02.html)
+  3. [for语句](https://akaedu.github.io/book/ch06s03.html)
+  4. [break和continue语句](https://akaedu.github.io/book/ch06s04.html)
+  5. [嵌套循环](https://akaedu.github.io/book/ch06s05.html)
+  6. [goto语句和标号](https://akaedu.github.io/book/ch06s06.html)
 #### 7. 结构体
   1. 复合类型与结构体
   2. 数据抽象
