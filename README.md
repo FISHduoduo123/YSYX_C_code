@@ -21,8 +21,8 @@
 ## 文件结构总览
 ```
 	YSYX_C_code/
-		|---- notes/
-		|---- codes/
+		|---- notes/    \\ 记录重点内容
+		|---- codes/	\\ 作业习题
 		|____ README.md
 ```
 ## 目录
