@@ -12,7 +12,7 @@ void print_logarithm(double x)
 	printf("The log of x is %f", log(x));
 }
 ```
-  函数的返回值应该这样理解：**函数返回一个值相当于定义一个和返回值类型相同的临时变量并用return后面的表达式来初始化**。
+  函数的返回值应该这样理解：**函数返回一个值相当于定义一个和返回值类型相同的临时变量并用return后面的表达式来初始化**。  
 注意：
   **1.** 函数的返回值不是左值，或者说函数调用表达式不能做左值，因此下面的赋值语句是非法的：
 ```
@@ -33,7 +33,7 @@ void foo(int x, int y)
 }
 ```
 最后一行printf永远都没机会被执行到，是一行Dead Code。  
-## 习题 (见 YXYX_Clearning/codes/5_codes.c)
+#### 习题 (见 YXYX_Clearning/codes/5_codes.c)
 **1、** 编写一个布尔函数int is_leap_year(int year)，判断参数year是不是闰年。如果某年份能被4整除，但不能被100整除，那么这一年就是闰年，此外，能被400整除的年份也是闰年。  
 **2、** 编写一个函数double myround(double x)，输入一个小数，将它四舍五入。例如myround(-3.51)的值是-4.0，myround(4.49)的值是4.0。可以调用math.h中的库函数ceil和floor实现这个函数。
 
