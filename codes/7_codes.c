@@ -10,7 +10,7 @@
 struct complex_struct {
 	double x, y;
 };
-//复数极坐标提取
+//复数直角坐标提取
 double real_part(struct complex_struct z)
 {
 	return z.x;
@@ -19,12 +19,11 @@ double img_part(struct complex_struct z)
 {
 	return z.y;
 }
-//复数模长提取
+//复数极坐标提取
 double magnitude(struct complex_struct z)
 {
 	return sqrt(z.x * z.x + z.y * z.y);
 }
-//复数俯角提取
 double angle(struct complex_struct z)
 {
 	return atan2(z.y, z.x);
